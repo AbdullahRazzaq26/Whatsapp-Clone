@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", "Helvetica Neue", "Helvetica", "Lucida Grande", Arial, "Ubuntu", "Cantarell", "Fira Sans", sans-serif;
+    background-color: rgb(240, 242, 245);
+    height: 145vh;
+}
+
+.nav {
+    display: flex;
+    height: 25.2vh;
+    background-color: #00a884;
+    width: 100%;
+    position: relative;
+
+}
+
+.nav img {
+    width: 4vh;
+    height: 4vh;
+    margin-top: 2.8vh;
+    margin-left: 43vh;
+}
+
+.nav p {
+    font-size: 1.5vh;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 3.8vh;
+    margin-left: 42vh;
+    position: absolute;
+    left: 6vh;
+}
+
+.main {
+    width: 106vh;
+    box-shadow: 0 17px 50px 0 rgba(11, 20, 26, .19), 0 12px 15px 0 rgba(11, 20, 26, .24);
+    border-radius: 0.6vh;
+    background-color: white;
+    height: 115vh;
+    margin-left: 21.4%;
+    position: absolute;
+    top: 15vh;
+    padding: 5vh 5vh 0 0vh;
+}
+
+.download {
+    border: 1px solid rgb(209, 215, 219);
+    height: 12vh;
+    border-radius: 0.6vh;
+    margin-left: 9vh;
+    width: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 4vh 0 4vh;
+    justify-content: space-between;
+}
+
+.download p {
+    margin-left: 2.7vh;
+}
+
+.download span {
+    font-weight: 400;
+    font-size: 1.9vh;
+}
+
+.download button {
+    background-color: rgba(1, 117, 98, 0.869);
+    border: none;
+    border-radius: 2.2vh;
+    height: 3.9vh;
+    width: 13vh;
+    color: white;
+    font-weight: 750;
+    cursor: pointer;
+    font-size: 1.4vh;
+}
+
+.download button:hover {
+    background-color: rgb(0, 103, 86);
+}
+
+.txt p {
+    line-height: 2.5;
+    font-size: 2vh;
+}
+
+.txt {
+    margin: 1vh 5vh 1vh 5vh;
+}
+
+.txt span {
+    font-weight: 500;
+}
+
+.txt h1 {
+    font-weight: 200;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+
+}
+
+.txtandqr {
+    display: flex;
+}
+
+.qr img {
+    margin-top: 4vh;
+    width: 29vh;
+    margin-left: 9vh;
+    position: relative;
+}
+.qr svg {
+    position: absolute;
+    top: 32vh;
+    right: 19.5vh;
+}
+hr {
+    width: 97vh;
+    border: 1px solid rgba(225, 225, 225, 0.555);
+}
+.link p {
+    color: #008069;
+    cursor: pointer;
+    font-size: 2vh;
+    margin: 4.7vh;
+}
+.tutorial h1 {
+    font-weight: 200;
+    padding-top: 1.5vh;
+}
+.tutorial a {
+    text-decoration: none;
+    font-size: 1.8vh;
+    color: #008069;
+}
+.tutorial a:hover {
+    text-decoration: underline;
+}
+.tutorial {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.035);
+    vertical-align: baseline;
+    width: 111vh;
+    height: 52.8vh;
+}
