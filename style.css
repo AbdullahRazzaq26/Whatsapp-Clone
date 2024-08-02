@@ -59,9 +59,13 @@ body {
     padding: 0 4vh 0 4vh;
     justify-content: space-between;
 }
-
+.download svg {
+    width: 7vh;
+    height: 18vh;
+}
 .download p {
     margin-left: 2.7vh;
+    font-size: 1.6vh;
 }
 
 .download span {
@@ -97,12 +101,17 @@ body {
 .txt span {
     font-weight: 500;
 }
-
+.txt svg {
+    height: 3vh;
+    width: 3vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
 .txt h1 {
     font-weight: 200;
     padding-top: 2vh;
     padding-bottom: 2vh;
-
+    font-size: 3.3vh;
 }
 
 .txtandqr {
@@ -118,7 +127,9 @@ body {
 .qr svg {
     position: absolute;
     top: 32vh;
-    right: 19.5vh;
+    right: 17vh;
+    width: 12vh;
+    height: 7vh;
 }
 hr {
     width: 97vh;
@@ -133,6 +144,7 @@ hr {
 .tutorial h1 {
     font-weight: 200;
     padding-top: 1.5vh;
+    font-size: 3vh;
 }
 .tutorial a {
     text-decoration: none;
@@ -149,4 +161,14 @@ hr {
     vertical-align: baseline;
     width: 111vh;
     height: 52.8vh;
+}
+.tutorial video {
+    height: 35vh;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+    outline: none;
 }
